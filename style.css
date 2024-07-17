@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(249, 47, 47),rgb(0, 255, 255) );
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hero h1{
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    margin-top: 50px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+
+
+}
+.h2{
+    text-align: center;
+    margin-top: 150px;
+    font-style: italic;
+    color: black;
+    cursor: pointer;
+    
+    
+}
+.h2 a{
+    text-decoration: none;
+    color: black;
+
+}
+.h2 a:hover{
+    color: none;
+}
+
+
+.anchor{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:200px ;
+    margin-left: 20px;
+    
+    
+}
+.anchor a{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 20px;
+    background: linear-gradient(green,blue);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+}
+.anchor a:hover {
+    color: red;
+    transition: transform 0.1s ease;
+    transform: translate(0px, 100px); /* Move 50px to the right and 50px down */
+    background:linear-gradient(gray,whitesmoke);
+    padding: 10px;
+
+}
+
+h3{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 120px;
+    text-shadow: 2px 2px red;
+    font-weight: bold;
+    font-style: italic;
+}
+span{
+    color: blue;
+    text-decoration: none;
+    text-shadow:2px 2px whitesmoke;
+}
